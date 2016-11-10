@@ -32,9 +32,6 @@ implementation
   TStringHelper work only 0-based strings. IndexOf + Chars
   Low and High autodetect 1 or 0 - based string for Platform
 }
-{ TODO :
-  function -> procedure
-  const -> var }
 class function TConvertString.Koi8RToWin1251(const Str: string): string;
 var
   I: integer;
