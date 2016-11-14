@@ -15,7 +15,6 @@ uses
 
 type
   TConvertString = class
-  private
   public
     class function Win1251ToKoi8R(const Str: string): string;
     class function Koi8RToWin1251(const Str: string): string;
