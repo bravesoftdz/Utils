@@ -8,11 +8,11 @@ uArrayHelper:
 * **class function MixArray<T>(var AArray: TArray<T>);** - Перемешиваем значения массива любого типа
 
 uConvert:
-* ***class function Win1251ToKoi8R(const Str: string): string;***
-* ***class function Koi8RToWin1251(const Str: string): string;***
+* **class function Win1251ToKoi8R(const Str: string): string;**
+* **class function Koi8RToWin1251(const Str: string): string;**
 
 uParsing:
-* ***class function FirstMatch(const Str, TagBegin, TagEnd: string): string;*** - Находим первое совпадение и вырезаем строку между TagBegin и TagEnd
-* ***class function AllMatches(const Str, TagBegin, TagEnd: string; Position: Integer): TStringList;*** - Находим все совпадения начиная с Position и вырезаем строки между TagBegin и TagEnd
+* **class function FirstMatch(const Str, TagBegin, TagEnd: string): string;** - Находим первое совпадение и вырезаем строку между TagBegin и TagEnd
+* **class function AllMatches(const Str, TagBegin, TagEnd: string; Position: Integer): TStringList;** - Находим все совпадения начиная с Position и вырезаем строки между TagBegin и TagEnd
 
 Delphi 10.1 Berlin +
