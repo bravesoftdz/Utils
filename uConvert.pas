@@ -3,6 +3,9 @@
   * Autor: Efimov A.A.
   * E-mail: infocean@gmail.com
   * GitHub: https://github.com/AndrewEfimov
+  * Requirements: -
+  * Platform: Android, Windows
+  * IDE: Delphi 10.1 Berlin +
   *
   ******************************************************************** }
 
@@ -15,14 +18,13 @@ uses
 
 type
   TConvertString = class
+  private const
+    Koi8R = '‏אבצהופדץטיךכלםמןÿנסעףזגüûחר‎שקתÞÀÁÖÄÅÔÃÕÈÉÊËÌÍÎÏ‗ÐÑÒÓÆÂÜÛÇØÝÙ×Ú';
+    Win1251 = 'ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞ‗אבגדהוזחטיךכלםמןנסעףפץצקרשתûü‎‏ÿ';
   public
     class function Win1251ToKoi8R(const Str: string): string;
     class function Koi8RToWin1251(const Str: string): string;
   end;
-
-const
-  Koi8R = '‏אבצהופדץטיךכלםמןÿנסעףזגüûחר‎שקתÞÀÁÖÄÅÔÃÕÈÉÊËÌÍÎÏ‗ÐÑÒÓÆÂÜÛÇØÝÙ×Ú';
-  Win1251 = 'ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞ‗אבגדהוזחטיךכלםמןנסעףפץצקרשתûü‎‏ÿ';
 
 implementation
 

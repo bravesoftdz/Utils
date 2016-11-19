@@ -3,6 +3,9 @@
   * Autor: Efimov A.A.
   * E-mail: infocean@gmail.com
   * GitHub: https://github.com/AndrewEfimov
+  * Requirements: -
+  * Platform: Android, Windows
+  * IDE: Delphi 10.1 Berlin +
   *
   ******************************************************************** }
 
